@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_cnn"
+        android:icon="@drawable/ic_cnn"
+        android:iconTint="@color/primary_container"
+        android:title="CNN" />
+
+    <item
+        android:id="@+id/nav_merdeka"
+        android:icon="@drawable/ic_republika"
+        android:iconTint="@color/primary_container"
+        android:title="Republika" />
+
+    <item
+        android:id="@+id/nav_okezone"
+        android:icon="@drawable/ic_okezone"
+        android:iconTint="@color/primary_container"
+        android:title="Okezone" />
+</menu>

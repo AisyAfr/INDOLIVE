@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_cnn">
+
+    <fragment
+        android:id="@+id/nav_cnn"
+        android:name="com.example.indolive.ui.CnnFragment"
+        android:label="fragment_cnn"
+        tools:layout="@layout/fragment_cnn" />
+    <fragment
+        android:id="@+id/nav_merdeka"
+        android:name="com.example.indolive.ui.MerdekaFragment"
+        android:label="fragment_merdeka"
+        tools:layout="@layout/fragment_merdeka" />
+    <fragment
+        android:id="@+id/nav_okezone"
+        android:name="com.example.indolive.ui.OkezoneFragment"
+        android:label="fragment_okezone"
+        tools:layout="@layout/fragment_okezone" />
+</navigation>
